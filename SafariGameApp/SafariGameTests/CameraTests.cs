@@ -20,8 +20,7 @@ class CameraTests
 
         string output = testCamera.Shoot(testAnimal);
 
-        // Assert.That(output, Is.EqualTo(expected));
-        Assert.Pass();
+        Assert.That(output, Is.EqualTo(expected));
     }
 
     [Test]
